@@ -4,9 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Document</title>
 </head>
-<body>
-  
+<body class="leading-6 text-xl">
+  <nav class="block bg-[#6d3535] text-white gap-4 lg:flex justify-between">
+    <h1 class="text-3xl p-4">Donut</h1>
+    <label for="menu" class="block float-right lg:hidden"><i class="fa fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="menu" class="hidden">
+    <ul class="text-2xl lg:flex bg-[#a14f34] items-center">
+      <li><a class="hover:text-[#d89f14] p-4" href="">Home</a></li>
+      <li><a class="hover:text-[#d89f14] p-4" href="">About</a></li>
+      <li><a class="hover:text-[#d89f14] p-4" href="">Contact</a></li>
+      <li><a class="hover:text-[#d89f14] p-4" href="">Location</a></li>
+    </ul>
+  </nav>
+  <section class="grid grid-cols-1 p-4 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <a href="https://en.wikipedia.org/wiki/Doughnut" class="text-center bg-[#d47332] rounded-lg border-2 border-black hover:bg-[#9c6700]">
+      <img src="images/chocolate.png" alt="">
+      <h3 class="text-white text-3xl">Chocolate</h3>
+      <p class="text-white text-xl p-4">Delicous chocolate glaze with some dark chocolate bits added on for a extra crunch.</p>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Doughnut" class="text-center bg-[#d47332] rounded-lg border-2 border-black hover:bg-[#9c6700]">
+      <img src="images/caramel donut.png" alt="">
+      <h3 class="text-white text-3xl">Caramel</h3>
+      <p class="text-white text-xl p-4">Caramel glaze made fresh, creamy and sweet.</p>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Doughnut" class="text-center bg-[#d47332] rounded-lg border-2 border-black hover:bg-[#9c6700]">
+      <img src="images/lemon.png" alt="">
+      <h3 class="text-white text-3xl">Lemon</h3>
+      <p class="text-white text-xl p-4">Sweet with a kick of sour for our lemon lovers.</p>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Doughnut" class="text-center bg-[#d47332] rounded-lg border-2 border-black hover:bg-[#9c6700]">
+      <img src="images/powder.png" alt="">
+      <h3 class="text-white text-3xl">Powder</h3>
+      <p class="text-white text-xl p-4">A classic sugar powdered donut.</p>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Doughnut" class="text-center bg-[#d47332] rounded-lg border-2 border-black hover:bg-[#9c6700]">
+      <img src="images/coconut.png" alt="">
+      <h3 class="text-white text-3xl">Toasted Coconut</h3>
+      <p class="text-white text-xl p-4">Coconut shavings toasted and mixed with a coconut glaze.</p>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Doughnut" class="text-center bg-[#d47332] rounded-lg border-2 border-black hover:bg-[#9c6700]">
+      <img src="images/sprinkle.png" alt="">
+      <h3 class="text-white text-3xl">Sprinkle</h3>
+      <p class="text-white text-xl p-4">Rainbow spinkles everywhere. Perfect for kids.</p>
+    </a>
+  </section>
 </body>
 </html>
