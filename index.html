@@ -9,11 +9,12 @@
   <title>Document</title>
 </head>
 <body class="leading-6 text-xl">
-  <nav class="block bg-[#6d3535] text-white gap-4 lg:flex justify-between">
-    <h1 class="text-3xl p-4">Donut</h1>
-    <label for="menu" class="block float-right lg:hidden"><i class="fa fa-solid fa-bars"></i></label>
-    <input type="checkbox" id="menu" class="hidden">
-    <ul class="text-2xl lg:flex bg-[#a14f34] items-center">
+  <nav class="block bg-[#6d3535] text-white gap-4 lg:flex lg:flex-row lg:justify-between">
+    <div class="flex justify-between">
+      <h1 class="text-3xl p-4">Donut</h1>
+      <button id="toggle" class="p-4 lg:hidden"><i class="fa fa-solid fa-bars"></i></button>
+    </div>
+    <ul class="flex flex-col items-start text-2xl bg-[#a14f34] lg:flex lg:flex-row lg:items-center">
       <li><a class="hover:text-[#d89f14] p-4" href="">Home</a></li>
       <li><a class="hover:text-[#d89f14] p-4" href="">About</a></li>
       <li><a class="hover:text-[#d89f14] p-4" href="">Contact</a></li>
