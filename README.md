@@ -3,8 +3,8 @@
 ## Edward Mah
 
 ## Git
--[pages](https://edwardm8.github.io/cpnt-201-a3/)
--[repo](https://github.com/edwardm8/cpnt-201-a3)
+- [pages](https://edwardm8.github.io/cpnt-201-a3/)
+- [repo](https://github.com/edwardm8/cpnt-201-a3)
 
 ## Attributions
 
